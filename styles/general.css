@@ -23,20 +23,27 @@ body {
     top: 110px;
     left: 0;
     right: 0;
-    height: 50px;
+    height: fit-content;
     border: 1px solid #6a6a6b;
 }
 
 .underheader-container {
     width: 85%;
-    height: 100%;
+    height: fit-content;
     margin: 0px auto;
     display: flex;
-    align-items: center;
     gap: 3px;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .underheader-container a {
+    flex: 1;
+    white-space: nowrap;
+    width: fit-content;
+
     background-color: #00539b;
     padding: 14px 20px;
     border-width: 0px;
