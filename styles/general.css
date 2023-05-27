@@ -150,3 +150,13 @@ body {
     background-position: center;
 
 }
+.box {
+   
+    background-color: #00539b;
+    height: 300px;
+    width: 500px;
+    border: 1px solid #6a6a6b;
+    display:flex ;
+
+    
+}
