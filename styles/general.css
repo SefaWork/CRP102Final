@@ -1,8 +1,8 @@
 body {
-    margin-top: 630px;
+    padding-top: 720px;
     font-family: 'PT Sans', sans-serif;
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
