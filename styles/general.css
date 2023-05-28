@@ -27,6 +27,7 @@ body {
     right: 0;
     height: fit-content;
     border-top: 1px solid #6a6a6b;
+    z-index: 2;
 }
 
 .underheader-container {
@@ -39,6 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 2;
 }
 
 .underheader-container a {
@@ -56,6 +58,7 @@ body {
     text-decoration-color: white;
 
     text-align: center;
+    z-index: 2;
 }
 
 .underheader-container a:hover {
@@ -112,7 +115,7 @@ body {
 
     font-size: 700;
     transition: box-shadow ease-in-out 0.2s;
-    z-index: 2;
+    z-index: 3;
 }
 
 .search-bar:focus {
@@ -146,17 +149,32 @@ body {
     flex: 1;
     background-image: url("../images/webbanner.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 500px;
+    background-size: cover;
+
+    top: 110px;
+    left: 0px;
+    right: 0px;
+
+    height: 600px;
     max-width: 3700px;
     margin-left: 0px;
     background-position: center;
+    position: absolute;
+
+    z-index: 1;
 }
 
 .box {
-    background-color: #00539b;
+    background-color: #ffffff;
+    bottom: 25px;
+    left: 50px;
     height: 300px;
-    width: 500px;
+    width: 550px;
     border: 1px solid #6a6a6b;
-    display:flex;
+    display: flex;
+    position: absolute;
+
+    opacity: 0.85;
+
+    z-index: 1;
 }
