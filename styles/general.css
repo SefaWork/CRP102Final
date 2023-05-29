@@ -162,6 +162,8 @@ body {
     position: absolute;
 
     z-index: 1;
+
+    border-bottom: 3px solid rgb(0, 100, 208);
 }
 
 .box {
@@ -215,4 +217,9 @@ body {
     display: inline-block;
     text-align: center;
     flex: 1;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
