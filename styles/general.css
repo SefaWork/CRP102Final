@@ -78,7 +78,7 @@ body {
 
 .logo {
     flex: 1;
-    background-image: url("../images/logo.svg");
+    background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 60px;
@@ -147,7 +147,7 @@ body {
 
 .photo {
     flex: 1;
-    background-image: url("../images/webbanner.jpg");
+    background-image: url("../images/webbanner.webp");
     background-repeat: no-repeat;
     background-size: cover;
 
