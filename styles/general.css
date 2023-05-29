@@ -170,11 +170,49 @@ body {
     left: 50px;
     height: 50%;
     width: 40%;
-    border: 1px solid #6a6a6b;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
 
     opacity: 0.85;
 
     z-index: 1;
+}
+
+.box p {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boxtitle {
+    flex: 0.75;
+    width: 100%;
+    background-color: #00539b;
+    display: flex;
+}
+
+.boxinfocontainer {
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxinfocontainer p, div {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxtitle h1 {
+    margin: auto;
+    font-weight: 800;
+    font-size: 300%;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    flex: 1;
 }
