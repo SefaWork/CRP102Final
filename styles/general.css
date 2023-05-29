@@ -216,3 +216,99 @@ body {
     text-align: center;
     flex: 1;
 }
+/*ekleme*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ff9800;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#about {
+  background-color: #f9f9f9;
+}
+
+#about h2 {
+  color: #333;
+}
+
+#programs ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#admissions {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#contact p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
